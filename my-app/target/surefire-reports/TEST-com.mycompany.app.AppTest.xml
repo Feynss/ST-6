@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.mycompany.app.AppTest" time="4.163" tests="98" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/feynss/mpi_works/ST-6/my-app/target/test-classes:/home/feynss/mpi_works/ST-6/my-app/target/classes:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/feynss/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/feynss/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/feynss/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/feynss/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/feynss/mpi_works/ST-6/my-app/target/surefire/surefirebooter-20260501142645886_3.jar /home/feynss/mpi_works/ST-6/my-app/target/surefire 2026-05-01T14-26-45_438-jvmRun1 surefire-20260501142645886_1tmp surefire_0-20260501142645886_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/feynss/mpi_works/ST-6/my-app/target/test-classes:/home/feynss/mpi_works/ST-6/my-app/target/classes:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/feynss/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/feynss/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/feynss/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/feynss/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/feynss/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/feynss"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/feynss/mpi_works/ST-6/my-app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="/home/feynss/mpi_works/ST-6/my-app/target/surefire/surefirebooter-20260501142645886_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.18+8-Ubuntu-122.04.1"/>
+    <property name="user.name" value="feynss"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.5.0-35-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/feynss/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="/home/feynss/mpi_works/ST-6/my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.18+8-Ubuntu-122.04.1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testMiniMaxOneMove" classname="com.mycompany.app.AppTest" time="0.123">
+    <system-out><![CDATA[
+minimax:   9(100) 
+minimax best:   9(100) Steps counted: 0]]></system-out>
+  </testcase>
+  <testcase name="testPlayerSetMove" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testPlayerDefaultMove" classname="com.mycompany.app.AppTest" time="0.078"/>
+  <testcase name="testGenMovesPartial" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testXWinCol1" classname="com.mycompany.app.AppTest" time="0.027"/>
+  <testcase name="testXWinCol2" classname="com.mycompany.app.AppTest" time="0.007"/>
+  <testcase name="testXWinCol3" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testXWinRow1" classname="com.mycompany.app.AppTest" time="0.035"/>
+  <testcase name="testXWinRow2" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testXWinRow3" classname="com.mycompany.app.AppTest" time="0.009"/>
+  <testcase name="testMiniMaxEmptyO" classname="com.mycompany.app.AppTest" time="0.328">
+    <system-out><![CDATA[
+minimax:   1(0) 
+minimax:   2(0) 
+minimax:   3(0) 
+minimax:   4(0) 
+minimax:   5(0) 
+minimax:   6(0) 
+minimax:   7(0) 
+minimax:   8(0) 
+minimax:   9(0) 
+minimax best:   7(0) Steps counted: 294777]]></system-out>
+  </testcase>
+  <testcase name="testMiniMaxEmptyX" classname="com.mycompany.app.AppTest" time="0.278">
+    <system-out><![CDATA[
+minimax:   1(0) 
+minimax:   2(0) 
+minimax:   3(0) 
+minimax:   4(0) 
+minimax:   5(0) 
+minimax:   6(0) 
+minimax:   7(0) 
+minimax:   8(0) 
+minimax:   9(0) 
+minimax best:   7(0) Steps counted: 294777]]></system-out>
+  </testcase>
+  <testcase name="testAllCells" classname="com.mycompany.app.AppTest" time="0.432"/>
+  <testcase name="testEmptyBoard" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testPlayer2Symbol" classname="com.mycompany.app.AppTest" time="0.005"/>
+  <testcase name="testMinMovePartialO" classname="com.mycompany.app.AppTest" time="0.005"/>
+  <testcase name="testMinMovePartialX" classname="com.mycompany.app.AppTest" time="0.008"/>
+  <testcase name="testMiniMaxQReset" classname="com.mycompany.app.AppTest" time="0.011">
+    <system-out><![CDATA[
+minimax:   2(0) 
+minimax:   3(0) 
+minimax:   4(0) 
+minimax:   6(0) 
+minimax:   7(0) 
+minimax:   8(0) 
+minimax:   9(0) 
+minimax best:   3(0) Steps counted: 3863]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell0" classname="com.mycompany.app.AppTest" time="0.153">
+    <system-out><![CDATA[
+minimax:   2(-100) 
+minimax:   3(-100) 
+minimax:   4(-100) 
+minimax:   5(0) 
+minimax:   6(-100) 
+minimax:   7(-100) 
+minimax:   8(-100) 
+minimax:   9(-100) 
+minimax best:   5(0) Steps counted: 31972]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell1" classname="com.mycompany.app.AppTest" time="0.149">
+    <system-out><![CDATA[
+minimax:   1(0) 
+minimax:   3(0) 
+minimax:   4(-100) 
+minimax:   5(0) 
+minimax:   6(-100) 
+minimax:   7(-100) 
+minimax:   8(0) 
+minimax:   9(-100) 
+minimax best:   5(0) Steps counted: 34312]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell2" classname="com.mycompany.app.AppTest" time="0.122">
+    <system-out><![CDATA[
+minimax:   1(-100) 
+minimax:   2(-100) 
+minimax:   4(-100) 
+minimax:   5(0) 
+minimax:   6(-100) 
+minimax:   7(-100) 
+minimax:   8(-100) 
+minimax:   9(-100) 
+minimax best:   5(0) Steps counted: 31972]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell3" classname="com.mycompany.app.AppTest" time="0.111">
+    <system-out><![CDATA[
+minimax:   1(0) 
+minimax:   2(-100) 
+minimax:   3(-100) 
+minimax:   5(0) 
+minimax:   6(0) 
+minimax:   7(0) 
+minimax:   8(-100) 
+minimax:   9(-100) 
+minimax best:   5(0) Steps counted: 34312]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell4" classname="com.mycompany.app.AppTest" time="0.127">
+    <system-out><![CDATA[
+minimax:   1(0) 
+minimax:   2(-100) 
+minimax:   3(0) 
+minimax:   4(-100) 
+minimax:   6(-100) 
+minimax:   7(0) 
+minimax:   8(-100) 
+minimax:   9(0) 
+minimax best:   1(0) Steps counted: 29632]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell5" classname="com.mycompany.app.AppTest" time="0.161">
+    <system-out><![CDATA[
+minimax:   1(-100) 
+minimax:   2(-100) 
+minimax:   3(0) 
+minimax:   4(0) 
+minimax:   5(0) 
+minimax:   7(-100) 
+minimax:   8(-100) 
+minimax:   9(0) 
+minimax best:   3(0) Steps counted: 34312]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell6" classname="com.mycompany.app.AppTest" time="0.127">
+    <system-out><![CDATA[
+minimax:   1(-100) 
+minimax:   2(-100) 
+minimax:   3(-100) 
+minimax:   4(-100) 
+minimax:   5(0) 
+minimax:   6(-100) 
+minimax:   8(-100) 
+minimax:   9(-100) 
+minimax best:   5(0) Steps counted: 31972]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell7" classname="com.mycompany.app.AppTest" time="0.172">
+    <system-out><![CDATA[
+minimax:   1(-100) 
+minimax:   2(0) 
+minimax:   3(-100) 
+minimax:   4(-100) 
+minimax:   5(0) 
+minimax:   6(-100) 
+minimax:   7(0) 
+minimax:   9(0) 
+minimax best:   2(0) Steps counted: 34312]]></system-out>
+  </testcase>
+  <testcase name="testPanelActionCell8" classname="com.mycompany.app.AppTest" time="0.113">
+    <system-out><![CDATA[
+minimax:   1(-100) 
+minimax:   2(-100) 
+minimax:   3(-100) 
+minimax:   4(-100) 
+minimax:   5(0) 
+minimax:   6(-100) 
+minimax:   7(-100) 
+minimax:   8(-100) 
+minimax best:   5(0) Steps counted: 31972]]></system-out>
+  </testcase>
+  <testcase name="testCellDisabled" classname="com.mycompany.app.AppTest" time="0.029"/>
+  <testcase name="testStateDraw" classname="com.mycompany.app.AppTest" time="0.033"/>
+  <testcase name="testStateOWin" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testStateXWin" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testGenMovesEmpty" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testUtilityChar" classname="com.mycompany.app.AppTest" time="0.005">
+    <system-out><![CDATA[
+X-O-X-O-X-O-X-O-X-
+]]></system-out>
+  </testcase>
+  <testcase name="testUtilityList" classname="com.mycompany.app.AppTest" time="0.014">
+    <system-out><![CDATA[
+1-2-3-
+]]></system-out>
+  </testcase>
+  <testcase name="testDraw" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testMiniMaxQResetO" classname="com.mycompany.app.AppTest" time="0.018">
+    <system-out><![CDATA[
+minimax:   2(0) 
+minimax:   3(0) 
+minimax:   4(0) 
+minimax:   6(0) 
+minimax:   7(0) 
+minimax:   8(0) 
+minimax:   9(0) 
+minimax best:   8(0) Steps counted: 3863]]></system-out>
+  </testcase>
+  <testcase name="testUtilityZeroInt" classname="com.mycompany.app.AppTest" time="0.003">
+    <system-out><![CDATA[
+0-0-0-0-0-0-0-0-0-
+]]></system-out>
+  </testcase>
+  <testcase name="testGenMovesFull" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testGameInitialState" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testEvalOWinForO" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testEvalOWinForX" classname="com.mycompany.app.AppTest" time="0.005"/>
+  <testcase name="testMiniMaxTwoMoves" classname="com.mycompany.app.AppTest" time="0.004">
+    <system-out><![CDATA[
+minimax:   8(0) 
+minimax:   9(100) 
+minimax best:   9(100) Steps counted: 1]]></system-out>
+  </testcase>
+  <testcase name="testGameBoardInitiallyEmpty" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testPlaying" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testGamePlayer2NotNull" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testMiniMaxOneMoveO" classname="com.mycompany.app.AppTest" time="0.002">
+    <system-out><![CDATA[
+minimax:   9(0) 
+minimax best:   9(0) Steps counted: 0]]></system-out>
+  </testcase>
+  <testcase name="testEvalDrawForO" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testMaxMoveSwitchO" classname="com.mycompany.app.AppTest" time="0.066"/>
+  <testcase name="testMaxMoveSwitchX" classname="com.mycompany.app.AppTest" time="0.008"/>
+  <testcase name="testGameINF" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testMaxMovePartialO" classname="com.mycompany.app.AppTest" time="0.005"/>
+  <testcase name="testMaxMovePartialX" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testMinMoveThreeFree" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testOWinCol1" classname="com.mycompany.app.AppTest" time="0.006"/>
+  <testcase name="testOWinCol2" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testOWinCol3" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testOWinRow1" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testOWinRow2" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testOWinRow3" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testMaxMoveThreeFree" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testCellNum8" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testCellSetO" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testCellSetX" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testCellInitialMarker" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testMinMoveSwitchO" classname="com.mycompany.app.AppTest" time="0.032"/>
+  <testcase name="testMinMoveSwitchX" classname="com.mycompany.app.AppTest" time="0.027"/>
+  <testcase name="testUtilityEmptyChar" classname="com.mycompany.app.AppTest" time="0.005">
+    <system-out><![CDATA[
+ - - - - - - - - -
+]]></system-out>
+  </testcase>
+  <testcase name="testUtilityEmptyList" classname="com.mycompany.app.AppTest" time="0.003">
+    <system-out><![CDATA[
+
+]]></system-out>
+  </testcase>
+  <testcase name="testPanelCreation" classname="com.mycompany.app.AppTest" time="0.018"/>
+  <testcase name="testCellCol" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testCellNum" classname="com.mycompany.app.AppTest" time="0.004"/>
+  <testcase name="testCellRow" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testMinMoveDraw" classname="com.mycompany.app.AppTest" time="0.005"/>
+  <testcase name="testMinMoveOWin" classname="com.mycompany.app.AppTest" time="0.011"/>
+  <testcase name="testMinMoveXWin" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testStateValues" classname="com.mycompany.app.AppTest" time="0.02"/>
+  <testcase name="testStatePlaying" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testPlayerSetWin" classname="com.mycompany.app.AppTest" time="0.017"/>
+  <testcase name="testGenMovesOneEmpty" classname="com.mycompany.app.AppTest" time="0.012"/>
+  <testcase name="testOWinDiag1" classname="com.mycompany.app.AppTest" time="0.006"/>
+  <testcase name="testOWinDiag2" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testEvalDraw" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testGameBoardLength" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testPanelActionForeignSource" classname="com.mycompany.app.AppTest" time="0.177">
+    <system-out><![CDATA[
+minimax:   1(0) 
+minimax:   2(0) 
+minimax:   3(0) 
+minimax:   4(0) 
+minimax:   5(0) 
+minimax:   6(0) 
+minimax:   7(0) 
+minimax:   8(0) 
+minimax:   9(0) 
+minimax best:   4(0) Steps counted: 294777]]></system-out>
+  </testcase>
+  <testcase name="testMaxMoveDraw" classname="com.mycompany.app.AppTest" time="0.006"/>
+  <testcase name="testMaxMoveOWin" classname="com.mycompany.app.AppTest" time="0.029"/>
+  <testcase name="testMaxMoveXWin" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testMiniMaxFourMoves" classname="com.mycompany.app.AppTest" time="0.003">
+    <system-out><![CDATA[
+minimax:   6(-100) 
+minimax:   7(-100) 
+minimax:   8(-100) 
+minimax:   9(-100) 
+minimax best:   6(-100) Steps counted: 22]]></system-out>
+  </testcase>
+  <testcase name="testUtilityInt" classname="com.mycompany.app.AppTest" time="0.015">
+    <system-out><![CDATA[
+1-2-3-4-5-6-7-8-9-
+]]></system-out>
+  </testcase>
+  <testcase name="testPlayer1Symbol" classname="com.mycompany.app.AppTest" time="0.002"/>
+  <testcase name="testPlayerSetSelected" classname="com.mycompany.app.AppTest" time="0.003"/>
+  <testcase name="testXWinDiag1" classname="com.mycompany.app.AppTest" time="0.007"/>
+  <testcase name="testXWinDiag2" classname="com.mycompany.app.AppTest" time="0.0"/>
+  <testcase name="testGamePlayer1NotNull" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testEvalXWinForO" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testEvalXWinForX" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testEvalPlaying" classname="com.mycompany.app.AppTest" time="0.001"/>
+  <testcase name="testPanelHas9Components" classname="com.mycompany.app.AppTest" time="0.003"/>
+</testsuite>
